@@ -1,0 +1,37 @@
+.navbar-brand img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+.header_phone{
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_phone svg, .email-icon{
+    margin-right: 10px;
+    font-size: 17px;
+    color: #c52a2c;
+    margin-bottom: 2px;
+}
+
+.email-icon{
+    font-size: 22px !important;
+}
+
+.header_phone span{
+    font-size: 12px;
+}
+
+.header_phone p{
+    color: #000;
+    font-weight: 600;
+}
+
+.nav-link{
+    margin-right: 30px;
+}

@@ -1,0 +1,32 @@
+.criteria_main {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 40px 0;
+}
+
+.criteria_main h1 {
+    font-size: 50px;
+    color: #17325a;
+    font-weight: 300;
+    text-align: center;
+}
+
+.criteria_main h1 span {
+    font-weight: bold;
+}
+
+.criteria_main p {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.rotate_logo{
+    transform: rotate(270deg);
+}
+
+
+.criteria_box img{
+    width: 45px;
+}

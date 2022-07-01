@@ -1,0 +1,66 @@
+.eligible_main {
+    background-image: url('../../images/bg2.jpg');
+    background-size: cover;
+    height: auto;
+    color: #fff;
+}
+
+.eligible_head {
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 45px 0;
+}
+
+.eligible_head h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.eligible_head p {
+    max-width: 1000px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 17px;
+}
+
+.form_div {
+    max-width: 420px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.form_div h5{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.form-control{
+    border: transparent !important;
+    border-radius: 0 !important;
+    padding: 8px !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.form-control::placeholder{
+    font-size: 14px;
+}
+
+.form-label{
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #c32426 !important;
+    border: transparent !important;
+    padding: 10px 45px !important;
+    font-size: 13px !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary:focus{
+    box-shadow: none !important;
+}

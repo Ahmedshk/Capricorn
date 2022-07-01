@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+.main_bg {
+    background-image: url('../../images/bg1.jpg');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.banner_heading {
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.banner_heading h1 {
+    font-size: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+}
+
+.banner_heading h1 span {
+    font-weight: bold;
+}
+
+.capricorn_text {
+    background-color: #17325a;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 45px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.capricorn_text h4 {
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
