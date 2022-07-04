@@ -8,13 +8,13 @@
 }
 
 .header_phone{
-    display: flex;
-    align-items: flex-end;
+    display: flex !important;
+    align-items: flex-end !important;
 }
 
-.header_phone svg, .email-icon{
+.header_phone img{
     margin-right: 10px;
-    font-size: 17px;
+    width: 16px;
     color: #c52a2c;
     margin-bottom: 2px;
 }
@@ -34,4 +34,10 @@
 
 .nav-link{
     margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand img{
+        max-width: 200px;
+    }
 }

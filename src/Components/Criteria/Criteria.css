@@ -1,6 +1,7 @@
 .criteria_main {
     font-family: 'Red Hat Display', sans-serif;
     margin: 40px 0;
+    position: relative;
 }
 
 .criteria_main h1 {
@@ -20,13 +21,56 @@
     margin-top: 15px;
     font-weight: 500;
     text-align: center;
+    font-family: 'Calibri';
+}
+
+.boxes{
+    position: relative;
 }
 
 .rotate_logo{
     transform: rotate(270deg);
+    position: absolute;
+    left: -220px;
+    bottom: 270px;
+}
+
+.criteria_box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #fff;
+    padding: 26px !important;
+    border-radius: 10px;
+    max-width: 22rem !important;
+    margin-bottom: 45px;
 }
 
 
 .criteria_box img{
     width: 45px;
+}
+
+.criteria_box h5{
+    font-size: 18px;
+    color: #17325a;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.criteria_box p{
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    .criteria_main h1{
+        font-size: 30px;
+    }
+
+    .criteria_main p{
+        font-size: 15px;
+    }
+
+    .criteria_box img{
+        width: 40px;
+    }
 }

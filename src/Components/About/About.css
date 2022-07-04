@@ -45,3 +45,26 @@
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+    .about_main h1{
+        font-size: 35px;
+    }
+
+    .about_main p{
+        font-size: 15px;
+    }
+
+    .about_capricorn{
+        padding-left: 0;
+    }
+
+    .about_capricorn h5{
+        font-size: 27px;
+    }
+
+    .about_capricorn h6, .about_capricorn p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}

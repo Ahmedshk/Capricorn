@@ -10,7 +10,7 @@ const Banner = () => {
                 <Container>
                     <Row>
                         <Col md={6}>
-                            <img src={BannerLogo} alt='banner-logo' />
+                            <img src={'https://googlebiz.co/html/images/banner_logo.png'} alt='banner-logo' />
                         </Col>
                         <Col md={6}>
                             <div className='banner_heading'>

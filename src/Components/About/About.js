@@ -29,7 +29,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={6} className='p-0'>
-                        <img src={Img1} alt='img1' />
+                        <img src={'https://googlebiz.co/html/images/img1.jpg'} alt='img1' />
                     </Col>
                 </Row>
             </Container>

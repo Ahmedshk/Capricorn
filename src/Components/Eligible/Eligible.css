@@ -1,5 +1,5 @@
 .eligible_main {
-    background-image: url('../../images/bg2.jpg');
+    background-image: url('https://googlebiz.co/html/images/bg2.jpg');
     background-size: cover;
     height: auto;
     color: #fff;
@@ -63,4 +63,14 @@
 
 .btn-primary:focus{
     box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+    .eligible_head h1{
+        font-size: 35px;
+    }
+
+    .eligible_head p{
+        font-size: 15px;
+    }
 }
